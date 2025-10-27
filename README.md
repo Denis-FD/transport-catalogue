@@ -178,8 +178,9 @@ g++ -std=c++17 src/*.cpp -o transport-catalogue
 * [Ожидаемый вывод](examples/output.json)
 
 **Результирующая карта:**
-![SVG-карта маршрутов](examples/map.svg)
-
+<p align="center">
+  <img src="examples/map.svg" width="800" height="380" alt="SVG-карта маршрутов">
+</p>
 
 ## Лицензия
 MIT — см. файл [LICENSE](LICENSE).
