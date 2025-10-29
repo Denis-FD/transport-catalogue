@@ -314,24 +314,34 @@ g++ -std=c++17 src/*.cpp -o transport-catalogue
 * [Входные данные `input.json`](examples/01/input.json)
 * [Ожидаемый вывод `output.json`](examples/01/output.json)
 
-**Результирующая карта**
+<details>
+  <summary><strong>Результирующая карта</strong></summary>
 <p align="center">
   <img src="examples/01/map.svg" width="800" height="380" alt="SVG-карта маршрутов">
 </p>
+</details>
 
 ### Маршрутизация (базовая)
 * [Входные данные `input.json`](examples/02/input.json)
 * [Ожидаемый вывод `output.json`](examples/02/output.json)
 
-**Иллюстрация схемы маршрутов**
-<img src="examples/02/map-scheme.png" alt="Схема 02" width="50%">
+<details>
+  <summary><strong>Иллюстрация схемы маршрутов</strong></summary>
+<p align="left">
+  <img src="examples/02/map-scheme.png" alt="Схема 02" width="60%">
+</p>
+</details>
 
 ### Маршрутизация (расширенная)
 * [Входные данные `input.json`](examples/03/input.json)
 * [Ожидаемый вывод `output.json`](examples/03/output.json)
 
-**Иллюстрация схемы маршрутов**
-<img src="examples/03/map-scheme.png" alt="Схема 03" width="50%">
+<details>
+  <summary><strong>Иллюстрация схемы маршрутов</strong></summary>
+<p align="left">
+  <img src="examples/03/map-scheme.png" alt="Схема 03" width="60%">
+</p>
+</details>
 
 ## Лицензия
 MIT — см. файл [LICENSE](LICENSE).
