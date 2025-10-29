@@ -21,7 +21,10 @@
     - [Ответ на `Stop`](#ответ-на-stop)
     - [Ответ на `Route`](#ответ-на-route)
     - [Ответ на `Map`](#ответ-на-map)
-- [Пример](#пример)
+- [Примеры](#примеры)
+  - [Рендер карты и базовые ответы](#рендер-карты-и-базовые-ответы)
+  - [Маршрутизация (базовая)](#маршрутизация-базовая)
+  - [Маршрутизация (расширенная)](#маршрутизация-расширенная)
 - [Лицензия](#лицензия)
 
 ## Возможности
@@ -305,15 +308,30 @@ g++ -std=c++17 src/*.cpp -o transport-catalogue
 ```
 </details>
 
-## Пример
+## Примеры
 
-* [Входные данные `input.json`](examples/input.json)
-* [Ожидаемый вывод `output.json`](examples/output.json)
+### Рендер карты и базовые ответы
+* [Входные данные `input.json`](examples/01/input.json)
+* [Ожидаемый вывод `output.json`](examples/01/output.json)
 
-**Результирующая карта:**
+**Результирующая карта**
 <p align="center">
-  <img src="examples/map.svg" width="800" height="380" alt="SVG-карта маршрутов">
+  <img src="examples/01/map.svg" width="800" height="380" alt="SVG-карта маршрутов">
 </p>
+
+### Маршрутизация (базовая)
+* [Входные данные `input.json`](examples/02/input.json)
+* [Ожидаемый вывод `output.json`](examples/02/output.json)
+
+**Иллюстрация схемы маршрутов**
+<img src="examples/02/map-scheme.png" alt="Схема 02" width="50%">
+
+### Маршрутизация (расширенная)
+* [Входные данные `input.json`](examples/03/input.json)
+* [Ожидаемый вывод `output.json`](examples/03/output.json)
+
+**Иллюстрация схемы маршрутов**
+<img src="examples/03/map-scheme.png" alt="Схема 03" width="50%">
 
 ## Лицензия
 MIT — см. файл [LICENSE](LICENSE).
